@@ -38,7 +38,7 @@ public class QuickFindUF{
 	public void union(int p, int q){
 		var pid = id[p];					// 1 access
 		var qid = id[q];					// 1 access
-		for(var i = 0; i < id.length; i++){ // at most 2N + 2 array accesses
+		for(int i = 0; i < id.length; i++){ // at most 2N + 2 array accesses
 			if(id[i] === pid){            // 2 accesses each time * N accesses
 				id[i] = qid;
 			}
