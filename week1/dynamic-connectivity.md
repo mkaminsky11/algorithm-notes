@@ -33,6 +33,7 @@ Even if not direct connection `8->3->4->9`.
 Maximal group which are mutually connected. **find query** checks if in same component, **union command** replaces two components with their union.
 
 ```java
+//java outline
 public class UF
 	UF(int N) //initialize (0 to N-1)
 	void union(int p, int q) //connect p and q
@@ -42,7 +43,6 @@ public class UF
 ```
 
 ## Problems
-### 1
 ```
 number of components in: 1-2 3-4 5-6 7-8 7-9 2-8 0-5 1-9
 
