@@ -5,7 +5,7 @@ Quick find is too slow. Quick union is a "lazy approach"(doesn't load anything u
 
 Instead of 1 array, `id[i]` is the parent of `i`, and can have a "forest".
 ```
-root if i is : id[id[id[...id[i]...]]
+root of i is : id[id[id[...id[i]...]]
 
 9
 |\
